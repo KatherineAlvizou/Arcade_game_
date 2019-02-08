@@ -27,7 +27,8 @@ Once the player reaches the water (i.e., the top of the game board), the game is
 
 **Issues to address**
 
-**1.** Inside the app.js file, I need to implement the Player and the Enemy classes, using Object-Oriented JavaScript. Specifically, I need to complete the following:
+Inside the app.js file, I need to implement the Player and the Enemy classes, using Object-Oriented JavaScript. 
+Specifically, I need to complete the following:
 
 - The Enemy function, which initiates the Enemy by:
     Loading the image by setting this.sprite to the appropriate image in the image folder, setting the Enemy initial location and setting the Enemy speed.
@@ -36,10 +37,11 @@ Once the player reaches the water (i.e., the top of the game board), the game is
 
 - I also need to implement the Player class. At minimum I should implement the following:
 
- * The Player function, which initiates the Player by:
-Loading the image by setting this.sprite to the appropriate image in the image folder.
+   The Player function, which initiates the Player by:
+ 
+     -Loading the image by setting this.sprite to the appropriate image in the image folder.
 
-* Setting the Player's initial location.
+     -Setting the Player's initial location.
 
 * The update method for the Player.
 
@@ -49,18 +51,19 @@ Loading the image by setting this.sprite to the appropriate image in the image f
 
      - Left key should move the player to the left, right key to the right, up should move the player up and down should move the player down.
 
-- Recall that the player cannot move off screen (so I need to check for that and handle appropriately).
+* Recall that the player cannot move off screen (so I need to check for that and handle appropriately).
 
-- If the player reaches the water the game should be reset by moving the player back to the initial location.
+* If the player reaches the water the game should be reset by moving the player back to the initial location.
 
-- Once I have completed implementing the Player and Enemy, I should instantiate them by:
+* Once I have completed implementing the Player and Enemy, I should instantiate them by:
 
-Creating a new Player object.
+   - Creating a new Player object.
 
-Creating several new Enemies objects and placing them in an array called allEnemies.
+    - Creating several new Enemies objects and placing them in an array called allEnemies.
 
 **TECHNOLOGIES USED**
-Javascript Object-oriented
+
+Object-oriented Javascript
 
 **Future Improvements**
 
