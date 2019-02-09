@@ -1,6 +1,6 @@
 # Classic Arcade Game Clone Project
 
-**OVERVIEW**
+## OVERVIEW
 
 **Basic Functionality**
 
@@ -15,7 +15,7 @@ Once a the player collides with an enemy, the game is reset and the player moves
 Once the player reaches the water (i.e., the top of the game board), the game is won.
 
 
-## Instructions
+**Instructions**
 
 - Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking my submission.
 
@@ -23,7 +23,7 @@ Once the player reaches the water (i.e., the top of the game board), the game is
 
 
 
-**DEVELOPMENT STRATEGY**
+## DEVELOPMENT STRATEGY
 
 **Issues to address**
 
@@ -61,13 +61,13 @@ Specifically, I need to complete the following:
 
     - Creating several new Enemies objects and placing them in an array called allEnemies.
 
-**TECHNOLOGIES USED**
+## TECHNOLOGIES USED
 
 Object-oriented Javascript
 
-**Future Improvements**
+## Future Improvements
 
-Some additional features I can add:
+Some additional features I could implement:
 
 - Player selection: allow the user to select the image for the player character before starting the game. I can use the different character images provided in the images folder.
 
@@ -75,5 +75,7 @@ Some additional features I can add:
 
 - Collectibles:  add gems to the game, allowing the player to collect them to make the game more interesting.
 
-
-This project was created by **Aikaterini Alvizou** for the Google Udacity Nanodegree FEND.
+                                              ***
+  ### Project Implementation
+  
+_This project was created by **Aikaterini Alvizou** for the Google Udacity Nanodegree FEND._
